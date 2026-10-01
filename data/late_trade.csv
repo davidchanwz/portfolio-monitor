@@ -1,0 +1,2 @@
+trade_id,timestamp,symbol,side,quantity,price
+T014,2026-10-02T11:00:00,AAPL,SELL,10,118

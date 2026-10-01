@@ -1,0 +1,13 @@
+[project]
+name = "portfolio-monitor"
+version = "0.1.0"
+description = "Portfolio monitor prototype: trades + market prices -> positions, P&L and valuation"
+requires-python = ">=3.11"
+dependencies = ["streamlit>=1.40", "pandas>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "hypothesis>=6.100"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
